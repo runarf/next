@@ -5,11 +5,18 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Runars Website</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header>
+        <h1>My favorite yoga poses.</h1>
+      </header>
 
       <main>
+        <section>
+          <h1>Playlist.</h1>
+          <ReactPlayer url="https://www.youtube.com/playlist?list=PLKQXDOyUbI6NPsGylDjAZBEI5sww1NMRe" />
+        </section>
         <section>
           <h1>Trikonasana.</h1>
           <ReactPlayer url="https://www.youtube.com/watch?v=S6gB0QHbWFE" />
